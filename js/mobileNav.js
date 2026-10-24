@@ -26,3 +26,16 @@ hamburgerBtn.addEventListener("click", () => {
         document.body.style.overflow="";
     }
 })
+    mobileMenu.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+        isOpen = false;
+
+        mobileMenu.classList.remove("translate-x-0");
+        mobileMenu.classList.add("translate-x-full");
+
+        hamburgerIcon.classList.remove("hidden");
+        closeIcon.classList.add("hidden");
+
+        document.body.style.overflow = "";
+    });
+});
