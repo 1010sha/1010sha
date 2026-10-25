@@ -1,7 +1,7 @@
 const hamburgerBtn = document.getElementById("hamburgerBtn");
 const mobileMenu= document.getElementById("mobileMenu");
 const hamburgerIcon= document.getElementById("iconHamburger");
-const closeIcon=document.getElementById("iconClose");
+const closeIcon=document.getElementById("closeIcon");
 
 let isOpen = false;
 
