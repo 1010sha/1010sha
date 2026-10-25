@@ -1,11 +1,11 @@
 @font-face{
-    font-family: 'Zelda'  ;
+    font-family: 'Zelda';
     src: url('The\ Wild\ Breath\ of\ Zelda_D-Day.otf') format('opentype');
     font-style:normal;
 }
 
 .font-zelda{
-    font-family:'Zelda',sans-serif;
+    font-family:'Zelda', sans-serif;
 }
 
 .font-times{
